@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "video and audio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcc4935/streaming-media-assignment.git"
+  },
+  "author": "Lauren Casale",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lcc4935/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/lcc4935/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
